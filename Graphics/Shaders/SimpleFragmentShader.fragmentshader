@@ -1,0 +1,14 @@
+
+#version 330 core
+
+//input data
+in vec3 theColor;
+
+// Ouput data
+out vec3 color;
+
+void main()
+{
+	color = theColor;
+}
+
